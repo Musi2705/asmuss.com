@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSMUSS IT – IT-Dienstleistungen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ASSMUSS IT</div>
+            <ul class="nav-links">
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#services">Dienstleistungen</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="imagesdirection">
+    <div class="imagepadding">
+ <img src="tech4.img.jpg" alt="img1" width="300" height="250">
+    </div>
+    <div class="imagepadding">
+ <img src="tech1.img.jpg" alt="img2" width="300" height="250">
+    </div>
+    <div class="imagepadding">
+ <img src="tech2.img.jpg" alt="img3" width="300" height="250">
+    </div>
+    <div class="imagepadding">
+ <img src="tech3.img.jpg" alt="img4" width="300" height="250">
+    </div>
+</div>
+    <section id="home">
+        <div class="hero-content">
+            <h1>Willkommen bei ASSMUSS IT</h1>
+            <p>Ihr verlässlicher Partner für IT-Dienstleistungen – egal ob im privaten Haushalt oder für kleine Unternehmen.</p>
+            <a href="#services" class="cta-btn">Unsere Dienstleistungen</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Über uns</h2>
+            <p>Wir sind Experten im Bereich IT und bieten maßgeschneiderte Lösungen für Privathaushalte und Unternehmen. Mit unserer Erfahrung und unserem Fachwissen garantieren wir Ihnen professionelle Unterstützung und exzellente Ergebnisse.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Unsere Dienstleistungen</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>IT-Support für private Haushalte</h3>
+                    <p>Von der Netzwerkeinrichtung bis zur Datensicherung – wir helfen Ihnen bei allen IT-Problemen in Ihrem Zuhause.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Webseiten-Erstellung für Unternehmen</h3>
+                    <p>Professionelle und moderne Webseiten, die auf Ihre Bedürfnisse zugeschnitten sind und Ihre Marke optimal präsentieren.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Technischer Support und Wartung</h3>
+                    <p>Wir kümmern uns um die Wartung Ihrer IT-Systeme und stellen sicher, dass alles reibungslos funktioniert.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Nachricht:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Absenden</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ASSMUSS IT. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
